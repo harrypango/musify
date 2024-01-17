@@ -1,25 +1,27 @@
 # Musify App
 
 A modern and multi-functional Music App, inspired by Spotify.
-Check out the complete project functionalities below:
+Check out the complete project functionalities below.
 
-# Homepage
+# Functionalities
+
+**Homepage**
 
 Choose a genre and explore all the top songs of that genre.
 
-# Explore
+**Explore**
 
 Users can select a specific country and get the top trending songs of that country.
 
-# Music Player
+**Music Player**
 
 After clicking on any song, the music player appears on the page. It of course includes all the controls, such as previous/next song, pause/play button, repeat song, volume, duration etc.
 
-# Artists Page
+**Artists Page**
 
 Explore a page with the most famous artists.
 
-# Song Details Page
+**Song Details Page**
 
 Users have access to additional song information, like the lyrics and music video.
 
