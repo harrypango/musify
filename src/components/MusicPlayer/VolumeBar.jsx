@@ -17,7 +17,7 @@ const VolumeBar = ({ value, min, max, onChange, setVolume }) => (
       <BsFillVolumeMuteFill
         size={25}
         color="#FFF"
-        onClick={() => setVolume(0.5)}
+        onClick={() => setVolume(0.3)}
       />
     )}
     <input
