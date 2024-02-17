@@ -14,14 +14,14 @@ const NavLinks = ({ handleClick }) => (
         className="flex flex-row justify-start items-center my-8 text-sm font-medium text-gray-400 hover:text-cyan-400"
         onClick={() => {
           handleClick();
-          document
-            .getElementById(`${link.to}`)
-            .scrollIntoView({ behavior: "smooth" });
-          // window.scrollTo({
-          //   top: 1000,
-          //   left: 0,
-          //   behavior: "smooth",
-          // });
+          // document
+          //   .getElementById(`${link.to}`)
+          //   .scrollIntoView({ behavior: "smooth" });
+          window.scrollTo({
+            top: 1000,
+            left: 0,
+            behavior: "smooth",
+          });
         }}
       >
         <link.icon className="w-6 h-6 mr-2" />
